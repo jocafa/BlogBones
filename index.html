@@ -5,7 +5,13 @@
 		<script src="vendor/zepto.js"></script>
 		<script src="vendor/underscore.js"></script>
 		<script src="vendor/backbone.js"></script>
+		<script src="src/tumblr/tumblr.js"></script>
 		<script type="text/javascript">
+			$(function () {
+				t = new Tumblr('demo');
+
+				window.t = t;
+			});
 		</script>
 		<style type="text/css">
 		</style>
